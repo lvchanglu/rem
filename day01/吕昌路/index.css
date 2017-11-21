@@ -1,0 +1,169 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-11-18 19:36:05
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-11-18 22:28:15
+*/
+
+body,div,ul,h1,li{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.nav{
+	background:#006699;
+	width: 100%;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.nav h1{
+	color: #fff;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 44px;
+	/* vertical-align: middle; */
+}
+.bottom	{
+	width: 100%;
+	height: 44px;
+	background:#006699;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.bottom li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	line-height: 44px;
+}
+.bottom a{
+	color: #fff;
+}
+.banner {
+	width: 100%;
+	/* height: 192px; */
+	margin-top: 44px;
+	overflow: hidden;
+}
+.banner img{
+	width: 100%;
+}
+
+
+.product{
+	width: 100%;
+	height: 190px;
+	margin-top: 10px;
+}
+.product ul{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+}
+.product ul img{
+	float: left;
+	width: 33%;
+}
+
+
+
+/* slae */
+
+.sale{
+	width: 100%;
+}
+.sale div{
+	float: left;
+}
+.sale .s1{
+	width: 66%;
+}
+.sale .s1 ul{
+	width: 100%;
+	list-style: none;
+}
+.sale .s1 ul li{
+	float: left;
+	width: 50%;
+}
+.sale .s1 img{
+	width: 100%;
+}
+
+.sale .s2{
+	width: 33%;
+}
+.sale .s2 img{
+	width: 100%;
+}
+
+
+
+/* 品牌专区 */
+
+.pinpai{
+	width: 100%;
+	overflow: hidden;
+}
+.pinpai div{
+	width: 100%;
+}
+.pinpai .p_t img{
+	width: 100%;		
+}
+.pinpai .p_content li{
+	float: left;
+	width: 25%;
+}
+.pinpai li img{
+	width: 100%;
+}
+
+
+
+/* 运动 */
+.yundong,.y_t,.yundong img,.yundong ul{
+	width: 100%;
+}
+/* .yundong ul{
+	display: flex;
+} */
+.yundong ul li{
+	/* flex:1; */
+	width: 45%;
+	float: left;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+.yundong ul li div{
+	margin-top: 10px;
+}
+.yundong p{
+	color: #9D9DBB;
+}
+.yundong span{
+	color: #FF3300;
+}
+.yundong s{
+	/* text-decoration: del; */
+	color: #DCCCDC;
+}
+.yundong li a{
+	display:inline-block;
+	width: 60%;
+	background: #006699;
+	color: #fff;
+	margin-bottom: 10px;
+	padding:5px 0;
+	text-decoration: none;
+}

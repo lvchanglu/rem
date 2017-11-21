@@ -1,0 +1,162 @@
+
+.sort-page {
+	/**/
+}
+
+.sort-page .sort-search {
+	width: 100%;
+	border-bottom: 1px solid #bfbfbf;
+	background: url(../images/header-bg.png) repeat-x;
+	position: fixed;
+	top: 0;
+	z-index: 20;
+}
+
+.sort-page .search-wrap {
+	height: 44px;
+	padding: 7px 0;
+	margin: 0 50px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sort-page .search-wrap input {
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 12px;
+	border: 1px solid #bfbfbf;
+	border-radius: 4px;
+}
+
+.sort-page .back-icon,
+.sort-page .more-icon {
+	position: absolute;
+	top: 0;
+	width: 40px;
+	height: 44px;
+	padding: 10px 11px;
+	box-sizing: border-box;
+	background-clip: content-box;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+
+	-webkit-box-sizing: border-box;
+	-webkit-background-clip: content-box;
+	-webkit-background-origin: content-box;
+}
+
+.sort-page .back-icon {
+	left: 0;
+	background-position: -20px 2px;
+}
+
+.sort-page .more-icon {
+	right: 0;
+	background-position: -60px 2px;
+}
+
+/*分类*/
+.sort-page .sort-container {
+	width: 100%;
+	height: 100%;
+	padding-top: 45px;
+	position: fixed;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sort-page .sort-sup {
+	width: 90px;
+	height: 100%;
+	padding-top: 45px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	box-sizing: border-box;
+	/*overflow-y: scroll;*/
+	
+	/*设置原生滚动的*/
+	/*overflow-scrolling: touch;*/
+	
+	-webkit-box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
+}
+
+.sort-page .sort-sup li {
+	height: 49px;
+	text-align: center;
+	line-height: 49px;
+	font-size: 13px;
+	color: #252525;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	background-color: #f3f4f6;
+}
+
+.sort-page .sort-sup .active {
+	color: #f15353;
+	background-color: #FFF;
+	border: 0 none;
+}
+
+/*分类小项*/
+.sort-page .sort-sub {
+	width: auto;
+	height: 100%;
+	margin-left: 90px;
+	overflow-y: scroll;
+	overflow-scrolling: touch;
+
+	-webkit-overflow-scrolling: touch;
+}
+
+.sort-page .sort-sub .panel {
+	padding: 0 11px 0 13px;
+}
+
+.sort-page .sort-sub .panel h4 {
+	font-size: 12px;
+	color: #888;
+	line-height: 1;
+	padding: 20px 0 10px;
+}
+
+.sort-page .sort-sub ul {
+	overflow: hidden;
+}
+
+.sort-page .sort-sub li {
+	width: 33.333%;
+	float: left;
+}
+
+.sort-page .sort-sub li span {
+	display: block;
+	text-align: center;
+	margin: 5px 0 9px;
+	font-size: 12px;
+	color: #333;
+}
+
+.sort-page .sort-sub .hot ul {
+	border-top: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+}
+
+.sort-page .sort-sub .hot li {
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sort-page .sort-sub .hot a {
+	color: #252525;
+	font-size: 12px;
+}
+
+

@@ -1,0 +1,479 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-11-19 08:57:02
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-11-20 15:36:42
+*/
+body{
+	background: #F7F7F7;
+}
+.search{
+	width: 100%;
+	height: 40px;
+	background:#C91523;
+	position: fixed;
+	z-index: 10;
+}
+
+.logo{
+	display:block;
+	width: 56px;
+	height: 21px;
+	background-position: 0 -108px;
+	background-image: url("../images/jd-sprites.png");
+	background-size: 200px 200px;
+	position: absolute;
+	left: 10px;
+	top: 6px;
+}
+
+.search_box	{
+	width: 100%;
+	height: 100%;
+	padding-left: 75px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	position: relative;
+}
+.search_box i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left:80px;
+	top: 7px;
+	background: green;
+	background: url("../images/jd-sprites.png");
+	background-position: -83px 0;
+	background-size: 200px 200px;
+}
+.search_box input{
+	width: 100%	;
+	height: 30px;
+	border-radius: 15px;
+	padding-left: 25px;
+	margin-top: 5px;
+
+}
+.denglu{
+	position: absolute;
+	right: 5px;
+	top: 6px;
+	color: #fff;
+}
+
+
+/* 导航 */
+
+
+.nav{
+	background: #fff;
+	padding-top: 10px;
+	width: 100%;
+}
+.nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+.nav li{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.nav a {
+  display: block;
+  width: 100%;
+
+  padding-bottom: 10px;
+}
+.nav a img{
+	width: 40px;
+	height: 40px;
+}
+.nav p{
+	font-size: 12px;
+	color: #333;
+}
+
+
+/* 秒杀 */
+
+
+/* 上半部分 */
+.miaosha{
+	background: #fff;
+	margin-top: 5px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.m_t{
+		padding-bottom: 10px;
+}
+.m_t span{
+	display: block;
+	width: 20px;
+	height: 26px;
+	background: url("../images/jd-sprites.png");
+	background-position: -82px -109px;
+	background-size: 200px 200px;
+	position: absolute;
+	left: 5px;
+	top: 2px;
+}
+.m_t h3{
+	color:#CC1523;
+	font-weight: normall;
+	padding-left: 30px;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.time{
+	width: 80px;
+	height: 24px;
+	background: red;
+	position: absolute;
+	left: 85px;
+	top: 1px;
+
+}
+.miaosha>a{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	color: #555;
+	font-size: 12px;	
+}
+
+/* 秒杀下半部分 */
+
+.miaosha ul{
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.miaosha ul li{
+	padding: 0 10px;
+	box-sizing:border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.miaosha li a{
+	display: block;
+	background: #FFA500;
+	padding: 0 5px;
+	position: absolute;
+	bottom: 50px;
+	right: 15px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 12px;
+}
+
+.miaosha li p{
+	color: #C9153F;
+	font-size: 12px;
+
+}
+.miaosha li del{
+	color: #7F6666;
+	font-size: 12px;
+}
+
+
+
+/* 618购物券 */
+.juan{
+	width: 100%	;
+	position: relative;
+}
+
+.juan ul{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	padding:0 20px;
+	box-sizing:border-box;
+
+}
+.juan ul li{
+	width: 50%;
+	float: left;
+}
+
+
+/* product */
+
+.product{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10px;
+
+}
+
+.product ul{
+width: 100%;
+}
+.product .u1  li{
+	width: 33.3%;
+	float: left;
+}
+.product .u2 li{
+	width: 50%;	
+	float: left;
+}
+
+
+
+/* 特色超市 */
+
+.market{
+	padding: 0 10px;
+	box-sizing:border-box;
+	width: 100%;
+}
+.market>a{
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+} 
+.market  h3{
+	background: #fff;
+	color: #C91523;
+	font-weight:normal;
+}
+
+.market li{
+	float: left;
+	width: 50%;
+}
+
+
+/* 主题街 */
+.theme{
+	width: 100%;
+	overflow: hidden;
+}
+.theme>a{
+	display: block;
+	width: 100%;
+}
+.theme h3{
+	margin: 20px 10px;
+	color: #C91523;
+	font-weight:normal;
+}
+.theme li{
+	margin-top: 1px;
+	float: left;
+	width: 25%;
+}
+.theme li:nth-child(-n+2){
+	/* float: left; */
+ 	 width: 50%;
+}
+
+/* 品牌推荐 */
+
+.pinpai{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.pinpai>a{
+	margin: 10px 10px;
+}
+.pinpai h3{
+	color: #C91523;
+	font-weight:normal;
+	background: #fff;
+	padding: 10px;
+}
+.pinpai li{
+width: 30%;
+float: left;
+}
+.pinpai li:first-child{
+	width: 40%;
+}
+
+
+/* 猜你喜欢 */
+
+.guess{
+	width: 100%;
+}
+
+.guess h3{
+	font-weight: normal;
+	background: #fff;
+	/* padding-top: 10px;	 */
+	height: 50px;
+	line-height: 50px;
+	position: relative;	
+}
+.guess .denglu{
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	padding-left: 30px;
+	color: #C91523;
+	box-sizing:border-box;
+}
+.guess ul li>a{
+	display: block;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 10px;
+}
+.guess .denglu i{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: url("../images/jd-sprites.png");
+	background-color:#F9BABA;
+	background-position: -122px -31px;
+	background-size: 200px 200px;
+	left: 0;
+	top:12px;
+	border-radius: 50%;
+}
+
+.guess {
+	width: 100%;
+	overflow: hidden;
+}
+.guess  li{
+	width: 50%;
+	background: #fff;
+	float: left;
+	padding: 10px;
+	box-sizing:border-box;
+}
+.guess li>a>p{
+   width: 100%;
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-box-orient:  vertical;
+   -webkit-line-clamp: 2;
+
+   color: #333;
+   line-height: 1.2;
+   font-size: 14px;
+
+}
+.guess li>div{
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+}
+.guess li>div span{
+	color: #C91523;
+}
+.guess li>div a{
+	display: inline-block;
+	width:50px ;
+	border: 2px solid #ccc;
+	position: absolute;
+	right: 0;
+	border-radius: 5px;
+	color: #CCC;
+	top: -2px;
+}
+
+
+/* bottom */
+
+.bottom .more a{
+	display: block;
+	/* background: red; */
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+
+}
+.bottom a{
+	color: #7F7F7F;
+	font-size: 12px;
+}
+.bottom ul{
+	padding: 10px 0;
+	width: 205px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bottom .b_nav li{
+	float: left;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #666;
+}
+.bottom .b_nav li:last-child{
+	border-right: 0;
+
+}
+.xian{
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+}
+.bottom .app ul{
+	width: 100%;
+}
+.bottom .app li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+
+}
+.bottom .app a{
+	display: inline-block;
+	width: 40px;
+}
+.bottom .app a:before{
+	content: "";
+	display: block;
+	width: 36px;
+	height: 35px;
+	background: url("../images/jd-sprites.png");
+	background-position:-118px  -69px; 
+	background-size:200px 200px;
+}
+
+.bottom p{
+	font-size: 8px;
+	color: #666;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 45px;
+}
+
+/* 底部固定菜单 */
+
+.caidan{
+	background: #fff;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+}
+
+.caidan li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	background: ;
+
+}
+.caidan li img{
+	width: auto;
+	height: 40px;
+	margin: 0 auto;
+}

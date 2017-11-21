@@ -1,0 +1,179 @@
+@import "./variable.less";
+@import './reset.less';
+@import "./adapter.less";
+
+body{
+    background: #F5F5F5;
+}
+// 顶部
+.title{
+    width: 100%;
+    height: (88rem/30);
+    // position: fixed;
+}
+.title img{
+    width: 100%;
+}
+.title h2{
+    width: 100%;
+    text-align: center;
+    font-size: (50rem/30);
+    font-weight: normal;
+    color: #fff;
+    position: absolute;
+    margin-top: 0.5rem;
+}
+
+// 思聪个人简介
+
+.intro{
+    width: (680rem/30);
+    height: (288rem/30);
+    background: url(../images/bg.png)  ;
+    padding: (22rem/30) 0;
+    background-clip: content-box;
+    background-size: (750rem/30) (280rem/30);
+    border-radius: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    // margin-top: (88rem/30);
+}
+
+// 头像
+.icon{
+    width: (130rem/30);
+    height: (130rem/30);
+    background: url(../images/touxiang.png);
+    background-size: (130rem/30) (130rem/30);
+    position: absolute;
+    left: 1rem;
+    top: (52rem/30);
+}
+.icon img{
+    width: (130rem/30);
+    height: auto;
+}
+
+.intro>p{
+    font-size: (25rem/30);
+    color: #fff;
+    position: absolute;
+    left: 1rem;
+    bottom: 1.5rem;
+}
+
+// 简介
+.jianjie{
+    position: absolute;
+    left: (180rem/30);
+    top: 1.5rem;
+}
+.jianjie p{
+    margin-top: 0.3rem;
+    color: #fff;
+    font-size:(15rem/30);
+}
+.jianjie p:first-child{
+    font-size: 1.2rem;
+}
+
+// 二维码
+
+.er{
+    width: (170rem/30);
+    height: (100rem/30);
+    // background: red;
+    position: absolute;
+    right: 0.5rem;
+    top: 2rem;
+}
+.er>div{
+    width:(85rem/30);
+    text-align: center;
+    float: left;
+}
+.er img{
+    width: (45rem/30);
+    height: auto;
+}
+.er p{
+    margin-top:0.5rem;
+    color:#fff;
+}
+
+
+// 主要内容
+
+.main{
+    width: (680rem/30);
+    margin: 0 auto;
+}
+.main>div{
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.main img{
+    height:(45rem/30);
+    width:auto;
+}
+.main .main_t{
+    height: (144rem/30);
+}
+.main .main_t p{
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.main .m_m{
+    height: (168rem/30); 
+}
+.m_m ul{
+    height: 100%;
+}
+.main .m_m li{
+    padding-top: 1rem;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.main .m_m li p{
+    margin-top: 1rem;
+}
+.main .m_b{
+    height: (110rem/30);
+}
+
+.main .m_b p{
+    margin-top: 1rem;
+    padding-left: (40rem/30);
+    // vertical-align: middle;
+}
+.main .m_b p img{
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+
+// 底部固定导航栏
+
+.bottom {
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+.bottom li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
